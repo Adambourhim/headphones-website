@@ -2,14 +2,15 @@ import React, { Fragment, useState } from "react";
 import Plus from "../Image/plus.svg";
 function PlusStand(props) {
   const [plusOne, setPlusOne] = useState(false);
-  const { title, disc, top, left, divleft } = props;
+  const { title, disc, topp, leftt, divleft } = props;
   return (
     <Fragment>
       <div
         className="plus"
         style={{
-          top: top,
-          left: left,
+          top: topp,
+          left: leftt,
+          bottom: -topp,
           flexDirection: divleft ? "row-reverse" : "row",
         }}
       >

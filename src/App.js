@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import SubHeader from "./Header/SubHeader";
 import Slide from "./Main/Slide";
 import Main from "./Main/Main";
+import Slide2 from "./Main/Slide2";
 //import Main from "./Main/Main";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <SubHeader />
       <Slide />
       <Main />
+      <Slide2 />
     </div>
   );
 }

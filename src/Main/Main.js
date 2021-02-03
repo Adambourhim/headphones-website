@@ -2,12 +2,10 @@ import React, { Fragment, useState } from "react";
 import Group25 from "../Image/Group25.svg";
 import Bitmap2 from "../Image/Bitmap2.png";
 import PlusStand from "./PlusStand";
+import guy1 from "../Image/guy1.svg";
 
 function Main() {
   const [border, setBorder] = useState("Overview");
-
-  const [plus2, setPlus2] = useState(false);
-  const [plus3, setPlus3] = useState(false);
 
   return (
     <Fragment>
@@ -131,43 +129,56 @@ function Main() {
         </p>
       </div>
       <div className="Main-container-4">
-        <div>
+        <div className="container-4-box1">
           <img className="img1" src={Bitmap2} alt="bitmap2" />
 
           <PlusStand
             title="Impact resistant"
             disc="Designed to handle life on the go."
-            top={-497}
-            left={400}
+            topp={-497}
+            leftt={400}
           />
           <PlusStand
             title="Impact resistant 2"
             disc="Designed to handle life on the go."
-            top={-267}
-            left={440}
+            topp={-267}
+            leftt={440}
           />
           <PlusStand
             title="Impact resistant 3"
             disc="Designed to handle life on the go."
-            top={-336}
-            left={-182}
+            topp={-336}
+            leftt={-182}
             divleft={true}
           />
           <PlusStand
             title="Impact resistant 4"
             disc="Designed to handle life on the go."
-            top={-486}
-            left={-233}
+            topp={-486}
+            leftt={-233}
             divleft={true}
           />
           <PlusStand
             title="Impact resistant 5"
             disc="Designed to handle life on the go."
-            top={-833}
-            left={-170}
+            topp={-833}
+            leftt={-170}
             divleft={true}
           />
         </div>
+      </div>
+      <div className="Main-container-5">
+        <p>
+          <strong style={{ fontSize: "58px" }}>
+            Up to 20 hours battery life
+          </strong>
+          <br />
+          Enjoy up to 20 hours of listening, enough time to pore through this
+          entire playlist. So you can keep the music — or the quiet — going all
+          day long. And when it finally runs down, a quick 15-minute charge
+          gives you another 2.5 hours.
+        </p>
+        <img className="guyImg" src={guy1} alt="" />
       </div>
     </Fragment>
   );
