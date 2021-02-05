@@ -6,7 +6,7 @@ import SubHeader from "./Header/SubHeader";
 import Slide from "./Main/Slide";
 import Main from "./Main/Main";
 import Slide2 from "./Main/Slide2";
-//import Main from "./Main/Main";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <Slide />
       <Main />
       <Slide2 />
+      <Footer />
     </div>
   );
 }
