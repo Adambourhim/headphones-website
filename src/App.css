@@ -53,26 +53,39 @@
   display: flex;
   flex-direction: row;
 }
-.box-2 p {
-  width: 32px;
-  height: 32px;
-  border-radius: 100%;
-  margin: 3px;
+.box-2 a {
+  margin: 5px;
 }
 .p1 {
   background-color: #666666;
+  border-radius: 100%;
+  width: 33px;
+  height: 33px;
 }
 .p2 {
   background-color: #feb554;
+  border-radius: 100%;
+  width: 33px;
+  height: 33px;
 }
+
 .p3 {
   background-color: #606651;
+  border-radius: 100%;
+  width: 33px;
+  height: 33px;
 }
 .p4 {
   background-color: #edab7b;
+  border-radius: 100%;
+  width: 33px;
+  height: 33px;
 }
 .p5 {
   background-color: #c56a72;
+  border-radius: 100%;
+  width: 33px;
+  height: 33px;
 }
 .box-4 {
   display: flex;
@@ -105,7 +118,7 @@
 }
 .pic1 {
   padding: 10px 10px;
-  box-shadow: 3px 3px 6px gray;
+  box-shadow: 3px 3px 4px gray;
   border-radius: 7px;
   background-color: white;
   width: 285px !important;
@@ -139,6 +152,7 @@
 }
 .slick-track {
   top: 14px !important ;
+  height: 600px;
 }
 .slick-prev:before,
 .slick-next:before {
@@ -235,6 +249,7 @@
   font-size: 50px;
   position: relative;
   left: 47px;
+  top: 80px;
 }
 .btnShow {
   border-radius: 10px;
@@ -242,6 +257,7 @@
   width: 150px;
   background-color: transparent;
   padding: 3px;
+  margin-top: 103px;
 }
 .guyImg {
   position: relative;
@@ -310,9 +326,22 @@
 }
 .discfooter2 {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   background-color: #000000;
+  flex-direction: row;
+  color: white;
 }
+.footerList ul {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-left: 130px;
+}
+.footerList ul li {
+  list-style: none;
+  margin: 20px;
+}
+
 @media (max-width: 1100px) {
   .navbar {
     display: flex;

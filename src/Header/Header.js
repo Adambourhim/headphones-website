@@ -13,18 +13,18 @@ function Header() {
     <Fragment>
       <div className="container-1">
         <div className="sub">
-          <img src={Polygon} alt="" />
+          <img src={Polygon} alt="polygon" />
         </div>
         <div className="subButtom">
-          <img src={Union2} alt="" />
+          <img src={Union2} alt="union2" />
         </div>
         <div className="subLeft">
-          <img src={bitmap} alt="" />
+          <img src={bitmap} alt="bitmap" />
         </div>
       </div>
       <Navbar collapseOnSelect expand="lg" className="navbar">
         <Navbar.Brand href="#home">
-          <img src={Logo} />
+          <img src={Logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -43,9 +43,9 @@ function Header() {
             </Nav.Link>
           </Nav>
           <Navbar.Brand href="#home">
-            <img src={Shop} className="icon" />
-            <img src={Vector} className="icon" />
-            <img src={group21} className="icon" />
+            <img src={Shop} className="icon" alt="shop" />
+            <img src={Vector} className="icon" alt="vector" />
+            <img src={group21} className="icon" alt="group21" />
           </Navbar.Brand>
         </Navbar.Collapse>
       </Navbar>

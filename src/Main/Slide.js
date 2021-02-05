@@ -49,19 +49,19 @@ function Slide() {
     <div className="container-slider">
       <Slider className="slider" {...settings}>
         <div>
-          <img src={Media1} />
+          <img src={Media1} alt="media1" />
         </div>
         <div>
-          <img src={Media2} />
+          <img src={Media2} alt="media2" />
         </div>
         <div>
-          <img src={Media3} />
+          <img src={Media3} alt="media3" />
         </div>
         <div>
-          <img src={Media4} />
+          <img src={Media4} alt="media4" />
         </div>
         <div>
-          <img src={Media5} />
+          <img src={Media5} alt="media5" />
         </div>
       </Slider>
     </div>

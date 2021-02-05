@@ -14,7 +14,7 @@ function Main() {
           <li
             onClick={() => setBorder("Overview")}
             style={
-              border == "Overview"
+              border === "Overview"
                 ? {
                     borderRadius: "8px 8px 0px 0px",
                     borderTop: "1px solid ",

@@ -1,6 +1,5 @@
 import React from "react";
 import photo1 from "../Image/2 headphones.svg";
-import photo4 from "../Image/Bitmap3.svg";
 import Slider from "react-slick";
 
 function Slide2() {
@@ -48,27 +47,27 @@ function Slide2() {
       </div>
       <Slider className="slider2" {...settings}>
         <div className="pic1">
-          <img src={photo1} />
+          <img src={photo1} alt="photo1" />
           <h5>QuietComfort 35 wireless headphones II</h5>
           <h6>$449.99</h6>
         </div>
         <div className="pic1">
-          <img src={photo1} />
+          <img src={photo1} alt="photo2" />
           <h5>QuietComfort 35 wireless headphones II</h5>
           <h6>$449.99</h6>
         </div>
         <div className="pic1">
-          <img src={photo1} />
+          <img src={photo1} alt="photo3" />
           <h5>QuietComfort 35 wireless headphones II</h5>
           <h6>$449.99</h6>
         </div>
         <div className="pic1">
-          <img src={photo1} />
+          <img src={photo1} alt="photo4" />
           <h5>QuietComfort 35 wireless headphones II</h5>
           <h6>$449.99</h6>
         </div>
         <div className="pic1">
-          <img src={photo1} />
+          <img src={photo1} alt="photo5" />
           <h5>QuietComfort 35 wireless headphones II</h5>
           <h6>$449.99</h6>
         </div>
